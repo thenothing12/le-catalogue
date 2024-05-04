@@ -1,0 +1,1 @@
+"cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts nodemon"

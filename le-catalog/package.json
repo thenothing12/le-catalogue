@@ -1,6 +1,26 @@
 {
-  "name": "katalog",
-  "author": "Matthew Alexander | Ridho Rusdani | Zufar Roshid Arkhan",
+  "name": "le-catalogue",
+  "description": "a supposed ready-to-launch Shopify like E-Commerce platform intended to empower the local economy of the village",
+  "authors": [
+    {
+      "name": "Matthew Alexander",
+      "email": "sebastianhedforst@gmail.com",
+      "instagram": "https://www.instagram.com/r3yanson/"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Zufar Roshid Arkan"
+    },
+    {
+      "name": "Ridho Rusdani"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thenothing12/le-catalogue/"
+  },
+  "license": "MIT",
   "version": "0.1.0",
   "private": true,
   "scripts": {

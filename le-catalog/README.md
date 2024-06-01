@@ -1,33 +1,23 @@
-### notes
-- [__for Indonesian translation, click this__](../katalog/indo.md)
+### <div align="center">Sebuah penjelasan</div>
 
-- There are some configurations, issues, or bugs that need and I mean literally need to be resolved. One common thing that I've encountered while configuring the site is when it comes to write the __admin dashboard__
+### Proyek apakah ini?
+Ini adalah *Le-Catalogue*, sebuah platform E-Commerce mirip [Shopify](https://www.shopify.com/id) yang seharusnya siap dipakai untuk memberdayakan ekonomi lokal desa. Namun, platform ini tidak bisa selesai karena berbagai kompleksitas yang bahkan sulit dipahami oleh penduduk setempat. Selain itu, kretor memiliki keterbatasan pengetahuan dalam menyimpan informasi sensitif seperti data pribadi dan transkrip transaksi dengan aman, serta dalam mengirimkan pembayaran yang sebenarnya kepada penduduk lokal. Oleh karena itu, ada baiknya jika apa yang seharusnya menjadi platform ini tetap tidak terselesaikan, karena tidak ada yang benar-benar memahaminya sepenuhnya. Kreator berpikir akan bermanfaat untuk menyertakan deskripsi ini, dengan harapan sebagian besar pembaca akan memahami perjuangan dan keterbatasan yang dihadapi oleh kreator. Selain itu, diharapkan proyek yang belum selesai ini setidaknya layak dimasukkan dalam laporan hasil akhir KKN nanti.
 
-- If I'm quite frankly honest, I don't know why these errors or bugs are happening, but my advice is to __PAY ATTENTION__ to the dependencies you've installed. They're called dependencies because you depend on them...
+### Dibuat dengan memakai alat atau *plugin* apa?
+- [Next.js](https://nextjs.org/) oleh [Vercel](https://vercel.com/dashboard). Plugin ini yang paling sering dipakai untuk mendesain antarmuka pengguna,
+- [Tailwind](https://tailwindcss.com/) untuk *styling*,
+- [Payload](https://payloadcms.com/) untuk mendesain dashboard untuk memonitor produk, opsi pembayaran, dll,
+- [Express](https://expressjs.com/) untuk mendefinisikan rute URL guna menangani berbagai metode HTTP, serta mengonfigurasi *middleware* untuk tindakan Log-In dan autentikasi,
+- [Nodemon](https://nodemon.io/), pada dasarnya hanya untuk mempercepat proses pengembangan alih-alih mengetik ``bun next run dev`` di *bash*,
+- [Lucide](https://lucide.dev/) untuk menambahkan simbol dan semacamnya,
+- [Ui](https://ui.shadcn.com/) untuk menambahkan dan memakai komponen yang sudah ada dengan cara. Ibaratkan alasan dibalik manufaktur seperti [SpaceX](https://www.spacex.com/) membangun roket [Falcon 9](https://www.spacex.com/vehicles/falcon-9/) (*[konsep pemakaian ulang](https://en.wikipedia.org/wiki/Reusable_launch_vehicle#)*), dan terakhir,
+- [MongoDB](https://www.mongodb.com/) untuk kegiatan *back-end* seperti mendefinisikan ataupun mengoleksi informasi pribadi dan juga mengatur alur kerja *platform* ini
 
-- [Nodemon](https://nodemon.io/) proves invaluable in E-commerce development by facilitating seamless integration with third-party services. One such service is [Payload](https://payloadcms.com/)  a plugin designed to streamline transaction processes for customers while ensuring compatibility with __admin dashboard__ access. 
+### Sumber
+1. [StackOverflow](https://stackoverflow.com/questions/61937581/error-could-not-connect-to-any-servers-in-your-mongodb-atlas-cluster),
+2. [YouTube](https://youtu.be/dQw4w9WgXcQ?si=fx5hPHy9vqr8WDRP),
+3. [Repo](https://github.com/mariosemes/PornHub-downloader-python),
+4. [Situs yang didedikasikan khusus untuk penjelasan lebih lanjut](https://catalogue-documentation.vercel.app/)
 
-- [get-payload.ts](../katalog/src/get-payload.ts) & [payload.config.ts](../katalog/src/payload.config.ts), alongside with [server.ts](../katalog/src/server.ts) are crucial files that require close observation and revision, either later or sometime in the future. On my mama there's lot of a fuckin bugs in there, I'm tired as shit...
-
-- Also, don't mess with the ``.env`` file. Seriously, please refrain from touching it. I spent a solid 4 fucking hours tackling bugs caused by meddling with that file. I'm begging you..
-
-### tools
-- In conclusion, the tools that i made to create a suppose to be __"EcoPrint"__ site, is:
-1. [Next.js](https://nextjs.org/),
-2. [Tailwindcss](https://tailwindcss.com/),
-3. [Nodemon](https://nodemon.io/),
-4. [Payload](https://payloadcms.com/),
-5. [Lucide](https://lucide.dev/),
-6. [Shad.cn](https://ui.shadcn.com/),
-7. [GitPod](https://www.gitpod.io/),
-8. [TypeScript](https://www.typescriptlang.org/),
-9. [MongoDB](https://www.mongodb.com/),
-10. & The rest can be found on [package.json](../katalog/package.json)
-
-### sources and more infos
-1. [StackOverflow](https://stackoverflow.com/questions/61937581/error-could-not-connect-to-any-servers-in-your-mongodb-atlas-cluster) ofc lol
-2. [Youtube](https://youtu.be/dQw4w9WgXcQ?si=fx5hPHy9vqr8WDRP)
-3. [Github](https://github.com/mariosemes/PornHub-downloader-python)
-
-### & lastly
- ![fuck you](https://media.tenor.com/v6mGbK0_9PoAAAAM/filthy-frank-pink-guy.gif)
+### Lisensi
+Dibawah [lisensi MIT](/LICENSE)

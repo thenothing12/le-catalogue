@@ -3,6 +3,9 @@ message: "This software is a work in progress and not intended for production us
 authors:
   - family-names: "Panggabean"
     given-names: "Matthew Alexander"
+  - family-names: "Zufar Roshid Arkan"
+  - family-names: "Rusdani"
+    given-names: "Ridho"
 title: "Le-Catalogue, a supposed ready-to-launch Shopify like E-Commerce platform intended to empower the local economy of the village"
 version: "1.0.0"
 date-released: "2024-03-12"
